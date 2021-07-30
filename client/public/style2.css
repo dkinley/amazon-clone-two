@@ -1,0 +1,26 @@
+* { 
+    border: 2px solid red;
+}
+
+.square {
+    background: #2ecc71;
+    width: 25rem;
+    aspect-ratio: 1/1;
+    }
+
+.center {
+    background-color: #2ecc71;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: 200px;
+}
+
+p.texts::first-letter {
+    font-size: 200%;
+    color: #2ecc71;
+    }
+
+html {
+    scroll-behavior: smooth;
+    }
